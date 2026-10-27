@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ShoppingCart, ArrowLeft } from 'lucide-react';
-import API from '../services/api';
-import { useCart } from '../context/CartContext';
+import API from '../api/axiosInstance';
+import { useCart } from '../Context/CartContext';
 import { useAuth } from '../Context/AuthContext';
 
 const ProductPage = () => {

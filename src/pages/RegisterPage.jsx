@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../Context/AuthContext';
+import API from "../api/axiosInstance";
 
 function RegisterPage() {
     const [name, setName] = useState('');

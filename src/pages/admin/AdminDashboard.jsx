@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Plus, Trash2, Package } from 'lucide-react';
-import API from '../../services/api';
+import API from '../../api/axiosInstance';
 
 const emptyForm = {
   name: '',
